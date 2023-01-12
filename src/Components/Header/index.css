@@ -1,0 +1,65 @@
+.header-sm-container {
+  display: none;
+}
+.header-lg-container {
+  background-color: #202020;
+  padding: 15px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-jobs {
+  list-style-type: none;
+  width: 130px;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+}
+.nav-item {
+  color: white;
+  font-size: 20px;
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+}
+.logout-button {
+  background-color: #4f46e5;
+  color: white;
+  font-size: 18px;
+  padding: 6px 28px;
+  border-radius: 5px;
+  border-width: 0px;
+  cursor: pointer;
+}
+.logout-sm-button {
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+
+  border-radius: 5px;
+  border-width: 0px;
+}
+.icons {
+  font-size: 25px;
+}
+@media screen and (max-width: 767px) {
+  .header-lg-container {
+    display: none;
+  }
+  .header-sm-container {
+    min-width: 370px;
+    background-color: #202020;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .website-logo {
+    height: 35px;
+  }
+}
