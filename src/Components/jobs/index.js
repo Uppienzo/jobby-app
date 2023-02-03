@@ -194,7 +194,7 @@ class Jobs extends Component {
           onChange={this.onChangeSearch}
         />
         <button
-          type="submit"
+          type="button"
           data-testid="searchButton"
           className="search-icon"
           onClick={this.onSearch}

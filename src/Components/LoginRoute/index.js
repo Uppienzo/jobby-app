@@ -54,8 +54,7 @@ class Login extends Component {
     const data = await response.json()
     if (response.ok === true) {
       this.loginSuccessful(data.jwt_token)
-    }
-    if (data.status_code === 400) {
+    } else {
       this.loginFailure(data.error_msg)
     }
   }
